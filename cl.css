@@ -1,0 +1,155 @@
+body{
+    padding: 1%;
+margin: 1%;
+}
+#page{
+max-width: 1000px;
+margin: 0px auto;
+}
+header{
+height: 300px;
+background-color: rgb(26, 3, 5);
+background-image:url('th.jpg');
+position: relative;
+}
+nav{
+line-height: 25px;
+background-color: blueviolet;
+text-align: center;
+}
+section{
+width: 100%;
+}
+article{
+min-height: 200px;
+background-color: white;
+width: 75%;
+float: left;
+}
+footer{
+height: 100px;
+background-color:violet;
+clear:both;
+border-top: 3px double darkturquoise;
+text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 143, 22);
+    text-align: center;
+}
+.col-25{
+    width: 30%;
+    float: left;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: rgb(150, 10, 10);
+    font-size: small;
+}
+.prod{
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(158, 155, 155);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgb(140, 199, 88);
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;   
+}
+.prod>.anhdong{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    }
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: rgb(235, 238, 243);
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:rgb(203, 165, 238);
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: rgb(240, 47, 13);
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1 gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    height: auto;
+}
+.menu ul ul a:hover{
+    background-color:rgb(203 , 165, 238);
+    color: white;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    padding: 5px 10px 5px 20px;
+    background-color: rgb(253, 176, 148);
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.top-right a:hover{
+    color:whitesmoke;
+    text-shadow: 0 0 10px rgb(2, 60, 94);
+}
